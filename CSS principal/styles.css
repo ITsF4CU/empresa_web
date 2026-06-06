@@ -47,3 +47,36 @@ body {
     font-family: 'Montserrat';
     font-size: 1.2rem
 }
+
+/* SECCION 4: CONSTRUCCION */
+
+.galeria {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 45.6%, rgb(0, 6, 41))
+}
+
+.site {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white
+}
+
+.site-img {
+    width: 100%;
+    max-width: 940px;
+    padding: 4px;
+    background-color: blue;
+    box-shadow: 0 0 40px blue;
+    border-radius: 5px
+}
+
+.site-img img {
+    width: 100%
+}
