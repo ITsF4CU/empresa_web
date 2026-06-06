@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.presentation {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(1, 5, 75), rgb(0, 1, 10), rgb(1, 5, 75))
+}
+
+.presentation-title {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+.presentation-title h1 {
+    font-family: 'Bebas Neue';
+    color: rgb(0, 47, 255);
+    letter-spacing: 4px;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: 0 0 40px blue;
+    font-size: clamp(3.5rem, 2vmin, 9rem);
+    animation: subirTexto;
+}
+
+.presentation-title p {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.2rem
+}
