@@ -47,3 +47,50 @@ body {
     font-family: 'Montserrat';
     font-size: 1.2rem
 }
+
+/* SECCION 3: CONTACTO */
+.contacto {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contact-title {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem
+}
+
+.contact .socials {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socials .email {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.socials .phone {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
